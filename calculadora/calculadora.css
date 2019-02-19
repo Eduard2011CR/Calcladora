@@ -1,0 +1,69 @@
+  .Cuerpo{
+    height: 600px;
+    width: 400px;
+    background: #B2B2B2;
+    margin: auto;
+  }
+.Caja_de_botones{
+
+margin-left: 4px;
+}
+
+.pantalla_de_numeros{
+  width: 366px;
+  height: 200px;
+  background: #B2B2B2;
+  border: 0;
+  text-align: right;
+  font-size: 57px;
+  font-family: 'Arial', sans-serif;
+}
+
+.Pantalla{
+    width: 396px;
+    height: 208px;
+}
+
+.tamaño{
+  height: 25px;
+  width: 25px;
+}
+
+.bloque{
+  background: #F2F0F0;
+  float: left;
+  display: block;
+  width: 96px;
+  height: 76px;
+  margin: 1px;
+    text-align: center;
+    border: 0;
+}
+
+.bloque_funcion{
+  background: #D1D1D1;
+  float: left;
+  display: block;
+  width: 96px;
+  height: 76px;
+    margin: 1px;
+    text-align: center;
+    border: 0;
+}
+
+.bloque:hover{
+  background: #969595;
+}
+
+.bloque_funcion:hover{
+  background: #1F7723;
+  color: white;
+
+}
+
+
+span{
+  line-height: 85px;
+  font-size: 25px;
+  font-family: 'Arial', sans-serif;
+}

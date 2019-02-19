@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="calculadora.css" media="screen">
+
+
+    </script>
+    <title>Calculadora Windows</title>
+  </head>
+  <body>
+<div class="Cuerpo">
+
+  <div class="Pantalla">
+    <input id="texto" type="text" class="pantalla_de_numeros" maxlength="11" value="">
+  </div>
+
+  <div class="Caja_de_botones">
+    <div class="bloque_funcion vacio">
+      <span></span>
+    </div>
+
+    <div class="bloque_funcion eliminar_todo" onclick="general()">
+      <span>C</span>
+    </div>
+
+    <div class="bloque_funcion borrar_dato" onclick="borrar()">
+      <span><img class="tamaño" src="tag-with-cancel.png" ></span>
+    </div>
+
+    <div class="bloque_funcion dividir" onclick="dividir()">
+      <span><img class="tamaño" src="division.png" ></span>
+    </div>
+
+    <div class="bloque siete" onclick="siete()">
+      <span>7</span>
+    </div>
+
+    <div class="bloque ocho" onclick="ocho()">
+      <span>8</span>
+    </div>
+
+    <div class="bloque nueve" onclick="nueve()">
+      <span>9</span>
+    </div>
+
+    <div class="bloque_funcion multiplicacion" onclick="multi()">
+      <span>*</span>
+    </div>
+
+    <div class="bloque cuatro" onclick="cuatro()">
+      <span>4</span>
+    </div>
+
+    <div class="bloque cinco" onclick="cinco()">
+      <span>5</span>
+    </div>
+
+    <div class="bloque seis" onclick="seis()">
+      <span>6</span>
+    </div>
+
+    <div class="bloque_funcion menos" onclick="menos()">
+      <span>-</span>
+    </div>
+
+    <div class="bloque uno" onclick="uno()">
+      <span>1</span>
+    </div>
+
+    <div class="bloque dos" onclick="dos()">
+      <span>2</span>
+    </div>
+
+    <div class="bloque tres" onclick="tres()">
+      <span>3</span>
+    </div>
+
+    <div class="bloque_funcion suma" onclick="sumas()">
+      <span>+</span>
+    </div>
+
+    <div class="bloque_funcion vacio" onclick="signo()">
+      <span>+/-</span>
+    </div>
+
+    <div class="bloque cero" onclick="cero()">
+      <span>0</span>
+    </div>
+
+    <div class="bloque coma" onclick="coma()">
+      <span>,</span>
+    </div>
+
+    <div class="bloque resultado" onclick="igual()">
+      <span>=</span>
+    </div>
+  </div>
+
+</div>
+    <script type="text/javascript" src="clasecalculadora.js"></script>
+  </body>
+</html>
