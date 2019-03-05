@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> Cinema </title>
+        <script src="jquery/jquery-3.2.1.min.js"></script>
+        
+        <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+        	<link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+	<body>
+	<div class="contenedor">
+		<br>
+		<div class="contenido">
+            <h1>Ingresar Pelicula</h1>
+			<br>
+			<table class="t1">
+			<tr>
+				<td><label>Nombre:</label><br><input class="Nombre" id="Nombre" type="string" ></td> 
+				<td><label>Duracion:</label><br><input class="duracion" id="duracion" type="number" ></td>
+				<td><label>Genero:</label><br><input class="genero" id="genero" type="string" ></td>
+				<td><label>Audio:</label><br><input class="idiomaaudio" id="idiomaaudio" type="string" ></td>
+			</tr>
+			<tr>
+				<td><label>Subtitulos:</label><br><input class="idiomasub" id="idiomasub" type="string" ></td>
+				<td><label>Sinopsis:</label><br><input class="sinopsis" id="sinopsis" type="string" ></td>
+				<td><label>Clasificacion:</label><br><input class="clasificacion" id="clasificacion" type="string" ></td>
+				<td><label>Precio:</label><br><input class="precio" id="precio" type="number" ></td>
+			</tr>
+                <tr>
+				<td><label>Hora inicio:</label><br><input class="hora" id="hora" type="number" ></td>
+				<td><label>Fecha:</label><br><input class="fecha" id="fecha" type="date" ></td>
+				<td><label>Min Inicio:</label><br><input class="minuto" id="minuto" type="number" ></td>
+				<td><label>Estado:</label><br><select id='estado'><option value="0">Activo</option><option value="1">Inactivo</option></select></d>
+			</tr>
+                <tr class="imga">
+                <td><label>Imagen:</label><br><input class="imagen" id="imgpeli" type="file" ></td>
+                </tr>
+                <tr class="butto">
+                <td><button onclick="botonguardarclick()">Ingresar</button></td>
+                </tr>
+		</table>
+	</div>
+        </div>
+	</body>
+	<script type="text/javascript" src="pelifrontend.js">
+		</script>
+</html>

@@ -1,0 +1,98 @@
+.contenedor{
+	font-size: 16px;
+	text-align: center;
+	background: #604D4D;
+	margin: auto;
+	margin-top:65px;
+	position:relative;
+	width:600px;
+	height:750px;
+	border-bottom:1px solid black;
+    color: aliceblue
+}
+.titulo{
+    width: 600px;
+    height: 100px;
+    background-color: aquamarine;
+}
+#botondelpop1{
+	text-align: center;
+	border: none;
+	border-bottom: 1px solid #5497B5;
+    height: 25px;	
+    border-radius: 15px;
+}
+#botondelpop2{
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #5497B5;
+    height: 25px;   
+    border-radius: 15px;
+}
+#botondelpop3{
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #5497B5;
+    height: 25px;   
+    border-radius: 15px;
+}
+#nombredelacasilla{
+    font-size: 18px;
+}
+#Asiento{
+    font-size: 30px;    
+}
+
+#t1{
+    cursor: pointer;
+    position: absolute;
+	left: 40px;
+	text-align: center;
+}
+body{
+background: url(fondo1.jpg) no-repeat 50% 50%;
+    font-family: 'Cabin', sans-serif;
+}
+.imga{
+    position: absolute;
+    margin-left: 200px;
+}
+.butto{
+    margin-top: 80px;
+    position: absolute;
+    margin-left: 310px;
+}
+h1{
+    font-size: 35px;
+}
+#t2{
+    cursor: pointer;
+    position: absolute;
+	left: 400px;
+	text-align: center;
+    margin-top: 220px;
+}
+
+
+.popup{
+    
+    position: absolute;
+    top: 100px;
+    left:375px;
+    height: 700px;
+    width: 600px;
+        border-radius: 25px;
+    background-color: beige;
+}
+
+.numero{
+    border-radius: 80px;
+    height: 40px;
+    width: 40px;
+    background-color: antiquewhite;
+    text-align: center;
+    
+}
+.datodelpop{
+        text-align: center;
+}

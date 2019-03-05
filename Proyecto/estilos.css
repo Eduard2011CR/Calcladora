@@ -1,0 +1,38 @@
+.contenedor{
+	font-size: 25px;
+	text-align: center;
+	background: white;
+	margin: auto;
+	margin-top:85px;
+	position:relative;
+	width:65%;
+	height:500px;
+	border-bottom:1px solid black;
+}
+input{
+	text-align: center;
+	border: none;
+	border-bottom: 1px solid #5497B5;	
+}
+table{
+	border: 1px solid white;
+	margin: auto;
+	text-align: center;
+	background: white;
+}
+body{
+background: url(fondo1.jpg) no-repeat 50% 50%;
+    font-family: 'Cabin', sans-serif;
+}
+.imga{
+    position: absolute;
+    margin-left: 200px;
+}
+.butto{
+    margin-top: 80px;
+    position: absolute;
+    margin-left: 310px;
+}
+h1{
+    font-size: 35px;
+}
